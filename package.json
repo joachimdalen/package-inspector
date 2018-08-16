@@ -1,28 +1,33 @@
 {
-  "name": "@joachimdalen/package-inspector",
-  "version": "1.0.0",
-  "description": "A modules that provides detailed information from a package.json file",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha --reporter spec"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/joachimdalen/package-inspector.git"
-  },
-  "author": "Joachim Dalen <joachim@dalenapps.no> (https://joachimdalen.no)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/joachimdalen/package-inspector/issues"
-  },
-  "homepage": "https://github.com/joachimdalen/package-inspector#readme",
-  "devDependencies": {
-    "chai": "^4.1.2",
-    "mocha": "^5.2.0"
-  },
-  "dependencies": {
-    "package-json": "^5.0.0",
-    "read-pkg": "^4.0.1",
-    "semver": "^5.5.0"
-  }
+	"name": "@joachimdalen/package-inspector",
+	"version": "1.0.0",
+	"description": "A modules that provides detailed information from a package.json file",
+	"main": "index.js",
+	"scripts": {
+		"test": "mocha --reporter spec"
+	},
+	"keywords": [
+		"package",
+		"parser",
+		"inspector"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/joachimdalen/package-inspector.git"
+	},
+	"author": "Joachim Dalen <joachim@dalenapps.no> (https://joachimdalen.no)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/joachimdalen/package-inspector/issues"
+	},
+	"homepage": "https://github.com/joachimdalen/package-inspector#readme",
+	"devDependencies": {
+		"chai": "^4.1.2",
+		"mocha": "^5.2.0"
+	},
+	"dependencies": {
+		"package-json": "^5.0.0",
+		"read-pkg": "^4.0.1",
+		"semver": "^5.5.0"
+	}
 }
