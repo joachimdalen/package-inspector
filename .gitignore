@@ -59,4 +59,9 @@ typings/
 
 # next.js build output
 .next
+
+# node package lock file
 package-lock.json
+
+# testing files
+run.js
