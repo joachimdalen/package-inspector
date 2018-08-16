@@ -45,6 +45,8 @@ module.exports = async function(cwd) {
 			clean: semver.clean(pkg.version),
 			raw: pkg.version
 		};
+	} else {
+		base.version = null;
 	}
 	base.keywords = pkg.keywords || null;
 	base.license = pkg.license || null;
