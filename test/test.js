@@ -1,8 +1,8 @@
-'use strict';
+"use strict";
 
-var expect = require('chai').expect;
-var packageInspector = require('../index');
+var expect = require("chai").expect;
+var packageInspector = require("./index").default;
 
-describe('#packageInspector', function() {
-    
+describe("packageInspector", async function() {
+
 });
